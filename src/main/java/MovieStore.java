@@ -5,6 +5,7 @@ import java.util.List;
 
 public class MovieStore {
   List<Movie> movies = new LinkedList<Movie>();
+
   public List<Movie> findByPartialTitle(String partialTitle) {
     List<Movie> result = new LinkedList<Movie>();
     for (Movie movie : movies) {
@@ -20,6 +21,12 @@ public class MovieStore {
   }
 
   public List<Movie> findByDirector(String director) {
-
+    List<Movie> result = new LinkedList<Movie>();
+    for (Movie movie : movies) {
+      if(movie.director().equals(director)) {
+        result.add(movie);
+      }
+    }
+    return result;
   }
 }

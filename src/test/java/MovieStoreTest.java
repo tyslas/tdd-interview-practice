@@ -11,10 +11,11 @@ import static org.hamcrest.Matchers.containsInAnyOrder;
 public class MovieStoreTest {
 
   private final MovieStore movieStore = new MovieStore();
-  private final Movie harryPotter = new Movie("Harry Potter");
-  private final Movie starWars = new Movie("Star Wars");
-  private final Movie starTrek = new Movie("STAR Trek");
-  private final Movie shawshank = new Movie("Shawshank Redemption");
+  private final Movie harryPotter = new Movie("Harry Potter", "Rowling");
+  private final Movie starWars = new Movie("Star Wars", "Shwimmer");
+  private final Movie starTrek = new Movie("STAR Trek", "Shwimmer");
+  private final Movie shawshank = new Movie("Shawshank Redemption", "Bob");
+  private final Movie takeThat = new Movie("Take That", "Shwimmer");
 
   @Before
   public void setUp() throws Exception {
@@ -22,6 +23,7 @@ public class MovieStoreTest {
     movieStore.add(shawshank);
     movieStore.add(starWars);
     movieStore.add(starTrek);
+    movieStore.add(takeThat);
   }
 
   @Test
@@ -43,7 +45,7 @@ public class MovieStoreTest {
   public void findMoviesWhenDirectorExactlyMatches() throws Exception {
     List<Movie> results = movieStore.findByDirector("Shwimmer");
 
-    assertThat(results.size(), is(2));
-    assertThat(results, containsInAnyOrder(starWars, starTrek));
+    assertThat(results.size(), is(3));
+    assertThat(results, containsInAnyOrder(starWars, starTrek, takeThat));
   }
 }
