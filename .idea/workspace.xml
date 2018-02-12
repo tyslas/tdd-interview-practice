@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f19a750e-7653-4004-99ea-3bb10bfe48cc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MovieStore.java" afterPath="$PROJECT_DIR$/src/main/java/MovieStore.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Movie.java" afterPath="$PROJECT_DIR$/src/main/java/model/Movie.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MovieStoreTest.java" afterPath="$PROJECT_DIR$/src/test/java/MovieStoreTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MovieStore.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Movie.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,8 +45,8 @@
       <file leaf-file-name="MovieStore.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MovieStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="171">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#137#144#0" expanded="true" />
@@ -57,6 +54,8 @@
                 <element signature="e#468#469#0" expanded="true" />
                 <element signature="e#495#496#0" expanded="true" />
                 <element signature="e#592#599#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +64,8 @@
       <file leaf-file-name="MovieStoreTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MovieStoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
-              <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="528">
+              <caret line="56" column="65" lean-forward="false" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,10 +79,10 @@
             <state relative-caret-position="368">
               <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,9 +114,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/MovieStoreTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MovieStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MovieStore.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MovieStoreTest.java" />
       </list>
     </option>
   </component>
@@ -236,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MovieStoreTest.findMoviesWhenDirectorExactlyMatches">
+  <component name="RunManager" selected="JUnit.MovieStoreTest.findMoviesWhenReleaseYearIsBetweenTwoValues">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -317,14 +316,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MovieStoreTest.findMoviesWhenTitleIsPartiallyMatched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieStoreTest.findMoviesWhenReleaseYearIsBetweenTwoValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="moviestore" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MovieStoreTest" />
-      <option name="METHOD_NAME" value="findMoviesWhenTitleIsPartiallyMatched" />
+      <option name="METHOD_NAME" value="findMoviesWhenReleaseYearIsBetweenTwoValues" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -337,14 +336,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MovieStoreTest.returnsNoResultsWhenNoTitlesPartiallyMatchSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieStoreTest.findMoviesWhenTitleIsPartiallyMatched" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="moviestore" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MovieStoreTest" />
-      <option name="METHOD_NAME" value="returnsNoResultsWhenNoTitlesPartiallyMatchSearch" />
+      <option name="METHOD_NAME" value="findMoviesWhenTitleIsPartiallyMatched" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -418,19 +417,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.returnsNoResultsWhenNoTitlesPartiallyMatchSearch" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findAMovieWhenTitleIsPartiallyMatched" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findMoviesWhenTitleIsPartiallyMatched" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MovieStoreTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findMoviesWhenDirectorExactlyMatches" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findAMovieWhenTitleIsPartiallyMatched" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findMoviesWhenTitleIsPartiallyMatched" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MovieStoreTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findMoviesWhenDirectorExactlyMatches" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findMoviesWhenReleaseYearIsBetweenTwoValues" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findMoviesWhenDirectorExactlyMatches" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MovieStoreTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findMoviesWhenTitleIsPartiallyMatched" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findAMovieWhenTitleIsPartiallyMatched" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.returnsNoResultsWhenNoTitlesPartiallyMatchSearch" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findMoviesWhenReleaseYearIsBetweenTwoValues" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findMoviesWhenDirectorExactlyMatches" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MovieStoreTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findMoviesWhenTitleIsPartiallyMatched" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MovieStoreTest.findAMovieWhenTitleIsPartiallyMatched" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +452,7 @@
       <option name="presentableId" value="Default" />
       <updated>1518378209539</updated>
       <workItem from="1518378211962" duration="814000" />
-      <workItem from="1518379141786" duration="13780000" />
+      <workItem from="1518379141786" duration="14344000" />
     </task>
     <servers />
   </component>
@@ -490,7 +489,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14594000" />
+    <option name="totallyTimeSpent" value="15158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="720" height="877" extended-state="0" />
@@ -506,11 +505,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1795422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19911504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -592,6 +591,8 @@
             <element signature="e#468#469#0" expanded="true" />
             <element signature="e#495#496#0" expanded="true" />
             <element signature="e#592#599#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -609,18 +610,18 @@
         <state relative-caret-position="368">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MovieStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="171">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#137#144#0" expanded="true" />
@@ -628,14 +629,16 @@
             <element signature="e#468#469#0" expanded="true" />
             <element signature="e#495#496#0" expanded="true" />
             <element signature="e#592#599#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MovieStoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="528">
+          <caret line="56" column="65" lean-forward="false" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

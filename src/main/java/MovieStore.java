@@ -29,4 +29,8 @@ public class MovieStore {
     }
     return result;
   }
+
+  public List<Movie> findByReleaseYear(int from, int to) {
+    return null;
+  }
 }
