@@ -6,6 +6,10 @@ import java.util.List;
 public class MovieStore {
   List<Movie> movies = new LinkedList<Movie>();
 
+  public void add(Movie movie) {
+    movies.add(movie);
+  }
+
   public List<Movie> findByPartialTitle(String partialTitle) {
     List<Movie> result = new LinkedList<Movie>();
     for (Movie movie : movies) {
@@ -14,10 +18,6 @@ public class MovieStore {
       }
     }
     return result;
-  }
-
-  public void add(Movie movie) {
-    movies.add(movie);
   }
 
   public List<Movie> findByDirector(String director) {
